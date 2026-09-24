@@ -1,0 +1,33 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Herramientas de empaquetado y pruebas
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# Variables de entorno y archivos locales
+.env
+.env.*
+!.env.example
+
+# Configuración local de VS Code
+.vscode/*
+!.vscode/settings.json
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
