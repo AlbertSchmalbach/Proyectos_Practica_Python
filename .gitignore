@@ -26,7 +26,6 @@ build/
 
 # Configuración local de VS Code
 .vscode/*
-!.vscode/settings.json
 
 # Archivos temporales del sistema
 .DS_Store
